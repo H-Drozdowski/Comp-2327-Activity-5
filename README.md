@@ -11,4 +11,7 @@ Hudson Drozdowski
 
 ## Additional Information
 
-[ Use this space to include additional information that may help in your learning. ]
+The tree components I used in in this activity are:
+    -Packages, downloaded and installed multiple packages inside the virtual environment.
+    -Documentation, created application documentation with InnoSetup.
+    -Sphinx, generated html files that provide documentation for the code.
