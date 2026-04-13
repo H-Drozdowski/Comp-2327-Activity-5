@@ -1,4 +1,4 @@
-"""This module defines the League class."""
+"""This module defines the Player class."""
 
 __author__ = "ACE Faculty"
 __version__ = "1.0.0"
@@ -14,7 +14,7 @@ class Player:
             age (int): The age of the player.
             position (str): The position of the player on the team.
 
-        Raises
+        Raises:
             TypeError: Raised when the name is not a string, age is not
                 an integer, or position is not a string.
         """
@@ -65,7 +65,7 @@ class Player:
     def __str__(self) -> str:
         """Returns a string representation of the player.
 
-        Returns
+        Returns:
             str: A string containing the player's details.
         """
 

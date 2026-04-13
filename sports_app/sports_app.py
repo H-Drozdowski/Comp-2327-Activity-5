@@ -8,6 +8,7 @@ from PySide6.QtWidgets import QTableWidgetItem
 from PySide6.QtWidgets import QPushButton
 from PySide6.QtWidgets import QMessageBox
 from player.player import Player
+from PySide6.QtCore import Slot
 
 __author__ = "ACE Faculty"
 __version__ = "1.0.0"
@@ -59,7 +60,9 @@ class SportsApp(QWidget):
 
         self.setLayout(layout)
 
+    @Slot()
     def __show_message(self):
-        """Displays a welcome message to the user."""
+        """Displays a welcome message to the user. Connected to a 
+        QPushButton's clicked event."""
         
         QMessageBox.information(self, "Welcome", "Welcome to the Team!")

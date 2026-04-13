@@ -62,7 +62,7 @@ class League:
     def __str__(self) -> str:
         """Returns a string representation of the league.
 
-        Returns
+        Returns:
             str: A string containing the league's details.
         """
 
