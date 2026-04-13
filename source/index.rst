@@ -12,6 +12,17 @@ documentation for details.
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:  
 
+.. automodule::package.league
+    :members:
+
+.. automodule::package.player
+    :members:
+
+.. automodule::package.sports_app
+    :members:
+
+.. automodule::package.team
+    :members:
